@@ -141,6 +141,7 @@ function createCard(upgrade) {
       moneyPerClick++;
       money -= upgrade.cost;
       upgrade.cost *= 1.5;
+      upgrade.cost = Math.round(upgrade.cost);
       cost.textContent = 'Köp för ' + upgrade.cost + ' likes';
       moneyPerSecond += upgrade.amount;
       message('Grattis du har en ny följare!', 'success');
@@ -169,4 +170,15 @@ function message(text, type) {
   setTimeout(() => {
     p.parentNode.removeChild(p);
   }, 2000);
+}
+
+function opacitychange(){
+  document.getElementById("hideinthree").style.opacity = "0"
+  document.getElementById("hideinthree").style.display = "hidden"
+  document.getElementById("showinthree").style.opacity = "1"
+  }
+function hideinthree(){
+  setTimeout(() => {
+opacitychange()
+  }, 3000);
 }

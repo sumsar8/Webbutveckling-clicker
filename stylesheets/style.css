@@ -40,6 +40,7 @@ img {
     border: 1px solid black;
     margin: .5rem 0;
     padding: .5rem;
+    background-color: chartreuse;
   }
   
   .card:hover {
@@ -91,7 +92,6 @@ img {
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
-    padding-top: 2rem;
   }
   
   .container {
@@ -128,3 +128,15 @@ img {
       flex-direction: column-reverse;
     }
   }
+body{
+  background-color: cadetblue;
+}
+
+.hidein3{
+  opacity: 1;
+  position:absolute;
+}
+.showin3{
+  opacity: 0;
+  position:absolute;
+}
