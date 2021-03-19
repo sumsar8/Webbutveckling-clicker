@@ -160,7 +160,6 @@ function createCard(upgrade) {
  * Detta görs med en timer.
  * Läs mer: 
  * https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild
- * https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout
  */
 function message(text, type) {
   const p = document.createElement('p');
@@ -180,5 +179,5 @@ function opacitychange(){
 function hideinthree(){
   setTimeout(() => {
 opacitychange()
-  }, 3000);
+  }, 5000);
 }

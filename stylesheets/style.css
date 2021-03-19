@@ -134,7 +134,7 @@ body{
 
 .hidein3{
   opacity: 1;
-  position:absolute;
+  margin: 0 auto;
 }
 .showin3{
   opacity: 0;
