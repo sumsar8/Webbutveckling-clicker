@@ -140,3 +140,20 @@ body{
   opacity: 0;
   position:absolute;
 }
+.weebcatchers{
+}
+.container1{
+  width: 100vw;
+}
+.struktur1{
+  float: left;
+  width: 33%;
+}
+.struktur2{
+  float: left;
+  width: 33%;
+}
+.struktur3{
+  float: left;
+  width:33%;
+}
