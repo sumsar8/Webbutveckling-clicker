@@ -144,7 +144,7 @@ function createCard(upgrade) {
       upgrade.cost = Math.round(upgrade.cost);
       cost.textContent = 'Köp för ' + upgrade.cost + ' likes';
       moneyPerSecond += upgrade.amount;
-      message('Grattis du har en ny följare!', 'success');
+      message('Grattis du har skaffat en ny Weebcatcher!', 'success');
     } else {
       message('Du har inte råd.', 'warning');
     }
