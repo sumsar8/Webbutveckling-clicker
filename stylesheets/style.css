@@ -134,26 +134,17 @@ body{
 
 .hidein3{
   opacity: 1;
-  margin: 0 auto;
+  margin: auto;
 }
 .showin3{
-  opacity: 0;
   position:absolute;
+  display: none;
 }
-.weebcatchers{
-}
+
 .container1{
   width: 100vw;
+  display: flex;
 }
 .struktur1{
-  float: left;
-  width: 33%;
-}
-.struktur2{
-  float: left;
-  width: 33%;
-}
-.struktur3{
-  float: left;
-  width:33%;
+  width: 33.33%;
 }

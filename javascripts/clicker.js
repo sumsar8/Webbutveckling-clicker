@@ -31,7 +31,7 @@ let last = 0;
  * som ett klick.
  * Detta kommer att driva klickerknappen i spelet.
  * Efter 'click' som är händelsen vi lyssnar på så anges en callback som kommer
- * att köras vi varje klick. I det här fallet så använder vi en anonym funktion.
+ * att köras vi varje klick. I det här fallet så använder vi en anonym fanktion.
  * Koden som körs innuti funktionen är att vi lägger till moneyPerClick till 
  * money.
  * Läs mer: https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
@@ -174,8 +174,8 @@ function message(text, type) {
 
 function opacitychange(){
   document.getElementById("hideinthree").style.opacity = "0"
-  document.getElementById("hideinthree").style.display = "hidden"
-  document.getElementById("showinthree").style.opacity = "1"
+  document.getElementById("hideinthree").style.display = "none"
+  document.getElementById("showinthree").style.display = "initial"
   }
 function hideinthree(){
   setTimeout(() => {
