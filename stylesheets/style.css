@@ -130,11 +130,13 @@ img {
   }
 body{
   background-color: cadetblue;
+  overflow: hidden;
 }
 
 .hidein3{
   opacity: 1;
   margin: auto;
+  margin-top:10vh;
 }
 .showin3{
   position:absolute;
@@ -147,4 +149,7 @@ body{
 }
 .struktur1{
   width: 33.33%;
+}
+img{
+  margin-left:33.33vw;
 }
