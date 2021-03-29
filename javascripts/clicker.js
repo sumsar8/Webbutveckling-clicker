@@ -56,9 +56,12 @@ function step(timestamp) {
   mpsTracker.textContent = moneyPerSecond;
   followerTracker.textContent = moneyPerClick;
 
-  if (timestamp >= last + 1000) {
-    money += moneyPerSecond;
+  if (timestamp >= last + 10) {
+    money += moneyPerSecond/100;
     last = timestamp;
+  if (money >= 1000000) {
+    moneyTracker.textContent = ((money/1000000).toPrecision(4)) + " Miljoner";
+}
   }
   window.requestAnimationFrame(step);
 }
@@ -166,7 +169,6 @@ function message(text, type) {
   const p = document.createElement('p');
   p.classList.add(type);
   p.textContent = text;
-  msgbox.appendChild(p);
   setTimeout(() => {
     p.parentNode.removeChild(p);
   }, 2000);
@@ -180,5 +182,5 @@ function opacitychange(){
 function hideinthree(){
   setTimeout(() => {
 opacitychange()
-  }, 5000);
+  }, 500);
 }
