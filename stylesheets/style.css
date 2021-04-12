@@ -5,17 +5,7 @@
     margin:0;
     font-family: "Open Sans", sans-serif;
   }
-    footer {
-    margin-top: auto;
-    padding: 2rem 0;
-  }
-  
-  #click {
-    width: 8rem;
-    height: 8rem;
-    font-size: 2rem;
-  }
-  
+
   .card {
     display: flex;
     justify-content: space-between;
@@ -44,16 +34,10 @@
   display: flex;
 }
 .struktur1{
-  min-width: 33vw;
+  min-width: 50vw;
 }
 .struktur2{
-  min-width: 33vw;
-}
-.struktur3{
-  min-width:33vw;
-}
-img{
-  margin-left:33.33vw;
+  min-width: 50vw;
 }
 .center{
   justify-content: center;
@@ -63,4 +47,13 @@ img{
 .moneytext{
  font-size: 6rem;
  margin:0;
+}
+.weebandnet{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.net{
+  transform: rotate(0deg);
 }
