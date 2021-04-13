@@ -165,14 +165,7 @@ function createCard(upgrade) {
  * https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild
  * https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout
  */
-function message(text, type) {
-  const p = document.createElement('p');
-  p.classList.add(type);
-  p.textContent = text;
-  setTimeout(() => {
-    p.parentNode.removeChild(p);
-  }, 2000);
-}
+
 
 function opacitychange(){
   document.getElementById("hideinthree").style.opacity = "0"
@@ -182,5 +175,5 @@ function opacitychange(){
 function hideinthree(){
   setTimeout(() => {
 opacitychange()
-  }, 500);
+  }, 5000);
 }

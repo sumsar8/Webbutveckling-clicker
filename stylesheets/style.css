@@ -48,12 +48,22 @@
  font-size: 6rem;
  margin:0;
 }
-.weebandnet{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+.weebandnet:active{
+
+
 }
 .net{
   transform: rotate(0deg);
+}
+#btnControl:checked + label > img {
+  transform: rotate(100deg);
+
+}
+#btnControl {
+  display: none;
+}
+.weeb{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
