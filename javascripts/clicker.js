@@ -158,15 +158,6 @@ function createCard(upgrade) {
   return card;
 }
 
-/* Message visar hur vi kan skapa ett html element och ta bort det.
- * appendChild används för att lägga till och removeChild för att ta bort.
- * Detta görs med en timer.
- * Läs mer: 
- * https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild
- * https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout
- */
-
-
 function opacitychange(){
   document.getElementById("hideinthree").style.opacity = "0"
   document.getElementById("hideinthree").style.display = "none"
