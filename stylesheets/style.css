@@ -50,7 +50,8 @@
 }
 
 .net{
-  transform: rotate(0deg);
+  animation: netrotate 2s infinite;
+  transform-origin: 10% 100%;
 }
 #btnControl:checked + label > img {
   transform: rotate(100deg);
@@ -63,4 +64,20 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+@-webkit-keyframes  netrotate {
+  0%   { transform: rotate(100deg); }
+  100% { transform: rotate(0deg); }
+}
+@-moz-keyframes netrotate {
+  0%   { transform: rotate(100deg); }
+  100% { transform: rotate(0deg); }
+}
+@-o-keyframes netrotate {
+  0%   { transform: rotate(100deg); }
+  100% { transform: rotate(0deg); }
+}
+@keyframes netrotate {
+  0%   { transform: rotate(120deg); }
+  100% { transform: rotate(0deg); }
 }

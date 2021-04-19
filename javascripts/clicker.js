@@ -94,17 +94,17 @@ window.addEventListener('load', (event) => {
  */
 upgrades = [
   {
-    name: 'Arg gubbe',
+    name: 'Fiskenät',
     cost: 10,
     amount: 1
   },
   {
-    name: 'Internettroll',
+    name: 'Dold polis på weebforum',
     cost: 100,
     amount: 10
   },
   {
-    name: 'Twitterbot',
+    name: '',
     cost: 1000,
     amount: 100
   }
