@@ -104,7 +104,7 @@ upgrades = [
     amount: 10
   },
   {
-    name: '',
+    name: 'Fake Animewebsite',
     cost: 1000,
     amount: 100
   }
